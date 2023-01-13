@@ -1,3 +1,3 @@
 Frnbrz
 
-boilerplate-clean-arch
+my boilerplate for all projects
