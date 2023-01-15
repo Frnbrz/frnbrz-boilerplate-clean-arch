@@ -5,7 +5,7 @@ function CreateHomeButton() {
     const dispatch = useDispatch()
 
     const dispatchAction = () => {
-        dispatch(createUser({ name: 'John', id: 25 }))
+        dispatch(createUser({ id: 25, name: 'John' }))
     }
 
     return <button onClick={dispatchAction}>Dispatch Action</button>
