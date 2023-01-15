@@ -3,11 +3,11 @@ import { configureStore } from '@reduxjs/toolkit'
 import userSlice from './slices/user.slice'
 
 export interface AppStore {
-    user: User
+  user: User
 }
 
 export default configureStore<AppStore>({
-    reducer: {
-        user: userSlice
-    }
+  reducer: {
+    user: userSlice
+  }
 })

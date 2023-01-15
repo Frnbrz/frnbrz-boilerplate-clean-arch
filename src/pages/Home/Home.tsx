@@ -2,13 +2,13 @@ import { CreateHomeButton, ModifyHomeButton, ResetHomeButton } from './component
 import { HomeTitle, Layout } from './styled-components'
 
 function Home() {
-    return (
-        <Layout>
-            <HomeTitle>Home</HomeTitle>
-            <CreateHomeButton />
-            <ModifyHomeButton />
-            <ResetHomeButton />
-        </Layout>
-    )
+  return (
+    <Layout>
+      <HomeTitle>Home</HomeTitle>
+      <CreateHomeButton />
+      <ModifyHomeButton />
+      <ResetHomeButton />
+    </Layout>
+  )
 }
 export default Home
